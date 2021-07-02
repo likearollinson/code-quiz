@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Code Quiz</title>
+</head>
+<body>
+    <div class="startPage">
+        <h1>Code Quiz</h1>
+        <p>Welcome to the ultimate quiz for those learning to code!</p>
+        <button class = "startBtn">Start Game</button>
+    </div>
+    <p class = "rules">You have thirty seconds to complete quiz. Ten seconds will be deducted from timer for every wrong answer. Good Luck!</p>
+    <p class="time"></p>
+    <div class="question" id="questionOneContainer">
+        <h2 class = "questionOne">Which of these is a language?</h2>
+        <button class = "wrongQOne">HTML</button>
+        <button class = "wrongQOne">CSS</button>
+        <button class =  "correctQOne">JavaScript</button>
+        <button class= "wrongQOne">JQuery</button>
+    </div>
+    <div class = "question" id = "questionTwoContainer">
+        <h2 class = "questionTwo">Question 2</h2>
+        <button class = "wrongQTwo">Answer 1</button>
+        <button class = "correctQTwo">Correct</button>
+        <button class = "wrongQTwo">Answer 3</button>
+        <button class = "wrongQTwo">Answer 4</button>
+    </div>
+    <div class = "question" id = "questionThreeContainer">
+        <h2 class = "questionThree">Question 3</h2>
+        <button class = "wrongQThree">Answer 1</button>
+        <button class = "wrongQThree">Answer2</button>
+        <button class = "correctQThree">Correct</button>
+        <button class = "wrongQThree">Answer 4</button>
+    </div>
+    <div class = "question" id = "questionFourContainer">
+        <h2 class = "questionFour">Question 4</h2>
+        <button class = "correctQFour">Correct</button>
+        <button class = "wrongQFour">Answer 2</button>
+        <button class = "wrongQFour">Answer 3</button>
+        <button class = "wrongQFour">Answer 4</button>
+    </div>
+    <div class = "scorePage">
+        <h2>High Scores</h2>
+        <ul id = "scoreList"></ul>
+        <button class = "startOverBtn">Start Over</button>
+    </div>
+    <script src="./assets/script.js"></script>
+
+</body>
+</html>
