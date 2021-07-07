@@ -88,7 +88,7 @@ var timer = function(){
             //Show high scores
             scorePageEl.classList.toggle("show");
             //Reloads page so start page is shown
-            startOverBtnEl.addEventListener('click', () => {
+            startOverBtnEl.addEventListener('click', function() {
                 location.reload();
             });
         }
@@ -231,3 +231,6 @@ hideScorePage();
 updateNameScoreStore();
 
 start();
+
+// Uncomment below to clear stored scores
+// localStorage.clear();
