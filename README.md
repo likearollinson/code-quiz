@@ -10,7 +10,7 @@ When the user is done with the quiz a prompt appears for the user to input their
 
 The user can then click the start over button to relaunch the start page. 
 
-[Application hosted on GitHub](https://likearollinson.github.io/unc-hw-4-code-quiz/)
+[Application hosted on GitHub](https://likearollinson.github.io/code-quiz/)
 
 
 ![image of start page](./assets/startpage.png)
